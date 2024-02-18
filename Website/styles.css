@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 400px;
+    padding-left: 10px;
+    width: 400px;
+}
+nav,footer{
+    background-color: #444;
+    color: #fff;
+    padding: 5px;
+    align-content: center;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav ul li img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    padding-left: 70px;
+}
+nav ul li p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: oblique;
+    color: orange;
+    padding-left: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2,h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-text img {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.image-with-text p {
+    margin: 0; /* Remove default paragraph margin */
+    text-align: right;
+}
+
+.animated-text .component {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    animation: animateFont 2s infinite alternate;
+}
+
+@keyframes animateFont {
+    0% {
+        font-style: normal;
+    }
+    100% {
+        font-style: italic;
+    }
+}
+
+
+form {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="download"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="download"]:hover {
+    background-color: #0056b3;
+}

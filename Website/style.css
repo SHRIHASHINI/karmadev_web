@@ -1,0 +1,40 @@
+img{
+    height: 590px;
+    width:1250px;
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+nav{
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><img src="medical-record.png"></li>
+            <li><p>Medical Equipment Management</p></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="http://localhost/sample/login.php">Login</a></li>
+        </ul>
+        
+                
+        </div>
+    </nav>
+</header>
+<section id="home">
+    <div class="container">
+        
+    <div class="image-with-text">
+        <div class="image-container">
+            <img src="front4.jpg" alt="Image" class="animated-image">
+        </div>
+        <div class="animated-text">
+            <div class="component">Organization and Storage of Data</div>
+            <div class="component">Data Retrieval and Manipulation</div>
+            <div class="component">Data Security and Access Control</div>
+            <div class="component">Data Integrity and Consistency</div>
+            <div class="component">Concurrency Control and Transaction Management</div>
+            <div class="component">Scalability and Performance Optimization</div>
+            <div class="component">Backup and Recovery</div>
+            <div class="component">Integration and Interoperability</div>
+        </div>
+        
+</div>
+</section>
+<section id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of professionals specializing in the management and maintenance of medical equipment. With years of experience in the healthcare industry, we understand the critical role that reliable equipment plays in patient care.</p>
+        <p>Our mission is to ensure that healthcare facilities have access to high-quality equipment that is properly maintained and calibrated. We work closely with hospitals, clinics, and other healthcare providers to streamline equipment management processes and maximize operational efficiency.</p>
+        <p>At Medical Equipment Management, we prioritize safety, reliability, and compliance with industry standards. Our team is committed to providing exceptional service and support to help healthcare organizations deliver the best possible care to their patients.</p>
+    </div>
+    </div>
+</section>
+
+<section id="product">
+    <div class="container">
+        <h2>Products</h2>
+        <div class="image-with-text">
+           
+           
+            <p >
+                <form  id="qr-form" action="form.php" method="POST">
+                    <div class="form-group">
+                        <label for="hospital_name">Hospital Name:</label>
+                        <input type="text" id="hospital_name" name="hospital_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="equipment_req">Equipment Type:</label>
+                        <input type="text" id="equipment_req" name="equipment_req" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Equipment Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Purchase:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <!--<button type="submit">Submit</button>-->
+                    <button type="submit">Generate QR Code</button>
+                    <button id="downloadBtn" type="download">Download QR Code</button>
+                </form>
+                <div id="qrcode">
+                    <!--<img src="front2.jpg">-->
+                </div>
+                
+                <script src="script.js"></script>
+            </p>
+        </div>
+
+        
+    </div> 
+</section>
+
+<section id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Maintenance</h3>
+            <p>Regular maintenance involves routine inspections, cleaning, and adjustments to ensure medical equipment operates optimally. This includes preventive maintenance to identify and address potential issues before they escalate.</p>
+        </div>
+        <div class="service">
+            <h3>Calibration</h3>
+            <p>Calibration involves adjusting and verifying the accuracy of medical equipment measurements to ensure they meet specified standards. This is essential for devices such as patient monitors, lab equipment, and imaging machines.</p>
+        </div>
+        <div class="service">
+            <h3>Repair</h3>
+            <p>Repair services address malfunctions, damage, or wear and tear on medical equipment. This involves troubleshooting, diagnosing issues, and performing necessary repairs or replacements of components.</p>
+        </div>
+        <div class="service">
+            <h3>Inventory Management</h3>
+            <p>Inventory management involves tracking, organizing, and optimizing the inventory of medical equipment and supplies within a healthcare facility. This includes inventory audits, asset tracking, and procurement optimization.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+    <h4>Contact Details</h4>
+        <p>Email: example@example.com</p>
+        <p>Phone: +1234567890</p>
+</footer>
+
+</body>
+</html>
